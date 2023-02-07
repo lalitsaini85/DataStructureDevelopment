@@ -19,6 +19,17 @@ public abstract class AbstractClass {
     void start() {
         System.out.println("Starting");
     }
+    //abstract static void run(); //error
+    // To Do Something.
+
+    private void go() {
+
+    }
+
+    // final or private abstract void comeHere();  error here.
+    final void come() {
+        //
+    }
 }
 
 class class1 extends AbstractClass {
