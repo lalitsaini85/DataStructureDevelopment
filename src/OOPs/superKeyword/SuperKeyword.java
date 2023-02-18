@@ -30,7 +30,7 @@ class Polygon {
 
 class Triange extends Polygon {
     public Triange(int side, String name) { // java automatically calls super() means parent class constructor implicitly.
-        // if there are not noArgs constructor in the superclass then we can't use super() and java will not call it implicitly in that situation.
+        // if there are not noArgs constructor in the superclass then we can't use super() instead of super(parameters) and java will not call it implicitly in that situation.
         super(side, name);  //super will be the first statement of the subclass constructor.
 
     }
